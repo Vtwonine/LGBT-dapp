@@ -39,6 +39,7 @@ async function loadPlugins() {
   return plugins;
 }
 
+
 // https://vitejs.dev/config/
 export default defineConfig(async () => {
   const plugins = await loadPlugins();
